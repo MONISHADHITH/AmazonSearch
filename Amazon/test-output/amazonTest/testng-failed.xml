@@ -8,13 +8,13 @@
   <test thread-count="5" parallel="classes" name="Testonchrome(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.qa.testScripts.Tc_Excercise_03">
+      <class name="com.qa.testScripts.TC_MobileSearch">
         <methods>
-          <include name="search" invocation-numbers="0 1 2 3 4 5"/>
           <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="Search"/>
         </methods>
-      </class> <!-- com.qa.testScripts.Tc_Excercise_03 -->
+      </class> <!-- com.qa.testScripts.TC_MobileSearch -->
     </classes>
   </test> <!-- Testonchrome(failed) -->
 </suite> <!-- Failed suite [amazonTest] -->

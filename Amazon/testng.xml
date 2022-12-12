@@ -10,7 +10,7 @@
   <test thread-count="5" name="Testonchrome" parallel="classes">
   <parameter name ="browser" value="chrome"/>
   <classes>
-   <class name="com.qa.testScripts.Tc_Excercise_03"/> <!-- Tc_excerise_001 -->
+   <class name="com.qa.testScripts.Tc_Exercise_05"/> <!-- Tc_excerise_001 -->
   </classes>
   </test> <!-- Test -->
   <!-- 
