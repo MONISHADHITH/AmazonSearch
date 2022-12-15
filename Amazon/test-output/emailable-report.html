@@ -9,11 +9,17 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">amazonTest</th></tr>
-<tr><td><a href="#t0">Testonchrome</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">19,445</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Testonchrome</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">24,076</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">amazonTest</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Testonchrome &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.qa.testScripts.Tc_Exercise_05</td><td><a href="#m0">mobileSearch</a></td><td rowspan="1">1670825759740</td><td rowspan="1">5800</td></tr><tr class="passedeven"><td><a href="#m1">televisionSearch</a></td><td rowspan="1">1670825765553</td><td rowspan="1">5864</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">amazonTest</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Testonchrome &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.qa.testScripts.Tc_Exercise_05</td><td><a href="#m0">televisionSearch</a></td><td rowspan="1">1670842359838</td><td rowspan="1">6888</td></tr><tr><th colspan="4">Testonchrome &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.qa.testScripts.Tc_Exercise_05</td><td><a href="#m1">mobileSearch</a></td><td rowspan="1">1670842352850</td><td rowspan="1">6975</td></tr></tbody>
 </table>
-<h2>Testonchrome</h2><h3 id="m0">com.qa.testScripts.Tc_Exercise_05#mobileSearch</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Title matched</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.qa.testScripts.Tc_Exercise_05#televisionSearch</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Title matched</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Testonchrome</h2><h3 id="m0">com.qa.testScripts.Tc_Exercise_05#televisionSearch</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">title not matched</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false]
+	at com.qa.testScripts.Tc_Exercise_05.televisionSearch(Tc_Exercise_05.java:60)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 14 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.qa.testScripts.Tc_Exercise_05#mobileSearch</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Title matched</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -35,7 +35,7 @@ public class Reporting extends TestListenerAdapter{
 		xReports.attachReporter(htmlReporter);
 		xReports.setSystemInfo("hostName", "localhost");
 		xReports.setSystemInfo("OS", "Windows");
-		xReports.setSystemInfo("QA", "Vengai");
+		xReports.setSystemInfo("QA", "VENGAI");
 		
 		
 	}

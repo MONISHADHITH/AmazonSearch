@@ -6,8 +6,9 @@
       <class name="com.qa.testScripts.TC_MobileSearch">
         <methods>
           <include name="tearDown"/>
+          <include name="mobileSearch"/>
+          <include name="televsionSearch"/>
           <include name="setUp"/>
-          <include name="Search"/>
         </methods>
       </class> <!-- com.qa.testScripts.TC_MobileSearch -->
     </classes>

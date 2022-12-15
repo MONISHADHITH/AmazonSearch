@@ -1,5 +1,6 @@
 package com.qa.testScripts;
 import org.openqa.selenium.By;
+
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -14,6 +15,7 @@ public class AmazonHomePage {
 		ChromeDriver driver=new ChromeDriver();	 
 		driver.get("https://www.amazon.in/");
 		driver.manage().window().maximize();
+		
 		WebElement Search=driver.findElement(By.id("twotabsearchtextbox"));
 		Search.sendKeys("Asus Mobiles"+Keys.ENTER);
 		Thread.sleep(3000);

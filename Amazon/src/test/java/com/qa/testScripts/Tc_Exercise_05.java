@@ -47,7 +47,7 @@ public class Tc_Exercise_05 extends TestBase {
 		mt.getGo().click();
 		String str=mt.getAllText().getText();
 		System.out.println(str);
-		boolean title = driver.getTitle().contains("television");
+		boolean title = driver.getTitle().contentEquals("television");
 		if(title) {
 			sa.assertTrue(true);
 			Reporter.log("Title matched",true);

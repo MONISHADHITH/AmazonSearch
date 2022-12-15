@@ -9,7 +9,7 @@ public class MobilesPage
 {
 	MobilesPage Mpage;
 	WebDriver driver;
-	@FindBy(linkText="Mobiles")
+	@FindBy(linkText="Mobiles") // xpath = //a[text()='']
 	WebElement Mobiles;
 	public WebElement getMobiles()
 	{
@@ -31,7 +31,7 @@ public class MobilesPage
 	WebElement MaxPrice;
 	public WebElement getMaxPrice()
 	{
-		return MinPrice;
+		return MaxPrice;
 	}
 	@FindBy(xpath="//*[@id=\"a-autoid-1\"]/span/input")
 	WebElement Go;
@@ -39,6 +39,19 @@ public class MobilesPage
 	{
 		return Go;
 	}
+	@FindBy(xpath="//body")
+	WebElement alltext;
+	public WebElement getAllText()
+	{
+		return alltext;
+	}
+	@FindBy(id="twotabsearchtextbox")
+	WebElement search;
+	public WebElement getSearch()
+	{
+		return search;
+	}
+	
 	public MobilesPage(WebDriver driver)
 	{
 		this.driver=driver;
